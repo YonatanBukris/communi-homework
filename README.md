@@ -1,8 +1,25 @@
-# React + Vite
+### Infinity Grid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Infinity Grid is a simple React application demonstrating an infinite scrolling grid where you can interact with numbers to highlight their common divisors. The project emphasizes clean design and efficient performance.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    React: For building the UI.
+    Tailwind CSS: For styling the grid and layout.
+    React Icons: For including icons like the infinity symbol.
+    JavaScript (ES6): For implementing the core functionality
+
+## How To Getting Started?
+
+    npm install
+    npm run dev
+
+## Project Structure
+
+src/
+├── components/
+│ ├── Grid.jsx # Main grid component
+│ ├── NumberCell.jsx # Individual cell component
+├── App.jsx # Root component
+├── main.jsx # React entry point
+└── index.css # Tailwind CSS styles
